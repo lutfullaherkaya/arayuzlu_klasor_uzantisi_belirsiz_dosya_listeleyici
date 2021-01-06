@@ -5,6 +5,7 @@ Python'un Tkinter modülüyle arayüzü yazılmış ve Linux, Windows ve Mac OX 
 * [Kullanılan paketler](#kullanılan-paketler)
 * [Kurulum](#kurulum)
 * [Kullanım](#kullanım)
+* [Örnek](#örnek)
 * [Anlaşılabilen Uzantılar](#anlaşılabilen-uzantılar)
 	
 ## Kullanılan paketler
@@ -29,6 +30,9 @@ python3 dosya_tiplerini_listele.py "path"
 
 arayüzlü için:
 python3 dosya_tiplerini_listele_arayuzlu.py
+
+## Örnek
+![programdan bir kesit](https://github.com/lutfullaherkaya/arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici/blob/main/ornekResim.png?raw=true)
 
 ## Anlaşılabilen Uzantılar
 Bu kod dosyanın sonundaki .uzantı kısmına hiç bakmaz. Anlayabildiği uzantılar:
