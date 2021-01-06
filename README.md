@@ -1,52 +1,37 @@
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici](#arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici)
+* [Kullanılan paketler](#kullanılan-paketler)
+* [Kurulum](#kurulum)
 
-## General info
-This project is simple Lorem ipsum dolor generator.
-	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-	
-## Setup
-To run this project, install it locally using npm:
-
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
-
-
-# arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici
+## arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici
 Python'un Tkinter modülüyle arayüzü yazılmış ve Linux, Windows ve Mac OX ile uyumlu, verilen klasördeki uzantısı belli olmayan dosyaların uzantısını anlayıp listeleyen, pasta grafiğini dahi oluşturan program.
-
-Python 3'le Lütfullah Erkaya tarafınca yazılmıştır.
-
-Kurulum
-Terminale aşağıdaki yazılarak uzantısı bilinmeyen dosyanın uzantısını bulan modül indirilir.
-pip3 install filetype
-
-Bu modülün github sayfası:
-https://github.com/h2non/filetype.py
+	
+## Kullanılan paketler
+* Python version: 3.7.8
+* matplotlib version: 3.3.3
+* filetype version: 1.0.7
+	
+## Kurulum
+Uzantısı bilinmeyen dosyanın uzantısını bulan modül için:
+```
+pip install filetype
+```
 
 Arayüzdeki pasta grafiği için:
+```
 pip3 install matplotlib
+```
 
-
-Kullanım
-Terminale aşağıdaki yazılır.
-python3 dosya_tiplerini_listele.py path
+## Kullanım
+Terminale aşağıdaki yazılır. (python3 yerine python da olabilir ortam değişkeninize göre lakin python 2 de denemedim programı.)
+python3 dosya_tiplerini_listele.py "path"
 
 arayüzlü için:
 python3 dosya_tiplerini_listele_arayuzlu.py
 
-Notlar
+## Anlaşılabilen Uzantılar
 Bu kod dosyanın sonundaki .uzantı kısmına hiç bakmaz. Anlayabildiği uzantılar:
+```
 Image
 jpg - image/jpeg
 jpx - image/jpx
@@ -106,3 +91,4 @@ woff - application/font-woff
 woff2 - application/font-woff
 ttf - application/font-sfnt
 otf - application/font-sfnt
+```
