@@ -1,10 +1,11 @@
-## Table of contents
-* [arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici](#arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici)
-* [Kullanılan paketler](#kasdf)
-* [Kurulum](#kurulum)
-
-## arayuzlu_klasor_uzantisi_belirsiz_dosya_listeleyici
+## Arayüzlü, Klasör Uzantısı Belirsiz Dosya Listeleyici
 Python'un Tkinter modülüyle arayüzü yazılmış ve Linux, Windows ve Mac OX ile uyumlu, verilen klasördeki uzantısı belli olmayan dosyaların uzantısını anlayıp listeleyen, pasta grafiğini dahi oluşturan program.
+
+## İçindekiler
+* [Kullanılan paketler](#kullanılan-paketler)
+* [Kurulum](#kurulum)
+* [Kullanım](#kullanım)
+* [Anlaşılabilen Uzantılar](#anlaşılabilen-uzantılar)
 	
 ## Kullanılan paketler
 * Python version: 3.7.8
