@@ -1,0 +1,1 @@
+# import yapmak icin gerekiyor, bir seyler yapiyor iste
