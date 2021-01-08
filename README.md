@@ -1,5 +1,5 @@
 ## Arayüzlü, Klasör Uzantısı Belirsiz Dosya Listeleyici
-Python'un Tkinter modülüyle arayüzü yazılmış ve Linux, Windows ve Mac OX ile uyumlu, verilen klasördeki uzantısı belli olmayan dosyaların uzantısını anlayıp listeleyen, pasta grafiğini dahi oluşturan program.
+Python'un Tkinter modülüyle arayüzü yazılmış ve Linux, Windows ve MacOS ile uyumlu, verilen klasördeki uzantısı belli olmayan dosyaların uzantısını anlayıp listeleyen, pasta grafiğini dahi oluşturan program.
 
 ## İçindekiler
 * [Kullanılan paketler](#kullanılan-paketler)
